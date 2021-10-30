@@ -1,4 +1,2 @@
-# add tasks to execute actions
-
-# tasks:
-#   - command: 'echo "start"'
+tasks:
+  - command: 'whoami'
