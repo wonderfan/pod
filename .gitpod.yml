@@ -1,2 +1,2 @@
 tasks:
-  - command: 'whoami'
+  - command: 'sudo apt install tree'
