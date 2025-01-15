@@ -29,10 +29,10 @@ VOLUME_DATA=$(curl -s -X 'GET' \
 echo "Volume Data for the First Pool:"
 echo "$VOLUME_DATA" | jq '.data'
 
-# Optionally, fetch OHLCV data for more detailed volume analysis
+# Optionally, fetch OHLCV data for more detailed volume analysis (hourly data with aggregation)
 OHLCV_DATA=$(curl -s -X 'GET' \
-  "https://api.geckoterminal.com/api/v2/networks/solana/ohlc/$FIRST_POOL_ADDRESS?timeframe=hour&aggregate=1" \
+  "https://api.geckoterminal.com/api/v2/networks/solana/pools/$FIRST_POOL_ADDRESS/ohlcv/hour?aggregate=1" \
   -H 'accept: application/json')
 
-echo "OHLCV Data for the First Pool:"
+echo "OHLCV Data for the First Pool (Hourly, Aggregate 1):"
 echo "$OHLCV_DATA" | jq '.data'
