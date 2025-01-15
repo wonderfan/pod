@@ -22,9 +22,11 @@ get_new_pools() {
 get_trending_pools
 get_new_pools
 
+sleep 2s
+
 # Optionally, display some basic info about the fetched pools
 echo "First 3 Trending Pools:"
-jq '.[] | .id, .attributes.name, .attributes.volume_usd.h24' trending_pools.json | head -n 9
+jq '.data[] | .id, .attributes.name, .attributes.volume_usd.h24' trending_pools.json | head -n 9
 
 echo "First 3 New Pools:"
-jq '.[] | .id, .attributes.name, .attributes.pool_created_at' new_pools.json | head -n 9
+jq '.data[] | .id, .attributes.name, .attributes.pool_created_at' new_pools.json | head -n 9
