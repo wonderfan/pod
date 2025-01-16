@@ -66,7 +66,7 @@ for pool_type in trending new; do
             echo "$token_attributes" >> "$output_file"
             
             # Sleep for 1.5 seconds before next fetch
-            sleep 1.5
+            sleep 2
         done < "${pool_type}_pools_${timestamp}.csv"
     else
         echo "No ${pool_type}_pools file found."
