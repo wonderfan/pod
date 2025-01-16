@@ -49,14 +49,20 @@ POOL_DATA=$(curl -s -X 'GET' \
   "https://api.geckoterminal.com/api/v2/networks/solana/pools/$FIRST_POOL_ADDRESS" \
   -H 'accept: application/json')
 
-echo "Pool Data:"
-echo "$POOL_DATA" | jq '.data.attributes | {name, base_token_price_usd, pool_created_at, price_change_percentage, transactions}'
+echo "Pool Information:"
+echo "$POOL_DATA" | jq '.data.attributes | {name, base_token_price_usd, pool_created_at}'
+
+echo -e "\nPool Price Changes:"
+echo "$POOL_DATA" | jq -r '.data.attributes.price_change_percentage | to_entries[] | "\(.key):\(.value)"' | tr '\n' ' ' | sed 's/ $/\n/'
+
+echo -e "\nPool Transactions:"
+echo "$POOL_DATA" | jq -r '.data.attributes.transactions | to_entries[] | "\(.key): buys=\(.value.buys), sells=\(.value.sells), buyers=\(.value.buyers), sellers=\(.value.sellers)"'
 
 OHLCV_DATA=$(curl -s -X 'GET' \
-  "https://api.geckoterminal.com/api/v2/networks/solana/pools/$FIRST_POOL_ADDRESS/ohlcv/minute?aggregate=1" \
+  "https://api.geckoterminal.com/api/v2/networks/solana/pools/$FIRST_POOL_ADDRESS/ohlcv/minute?aggregate=1&limit=30" \
   -H 'accept: application/json')
 
-echo "OHLCV Data for the Pool :"
+echo -e "\nOHLCV Data for the Pool :"
 echo "$OHLCV_DATA" | jq -r '.data.attributes.ohlcv_list[]|@tsv' | while IFS=$'\t' read -r a b c d e f; do
     time=$(date -d "@$a" "+%Y-%m-%d %H:%M:%S")
     echo "$time $b $c $d $e $f"
