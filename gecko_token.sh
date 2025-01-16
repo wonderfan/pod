@@ -59,7 +59,7 @@ echo -e "\nPool Transactions:"
 echo "$POOL_DATA" | jq -r '.data.attributes.transactions | to_entries[] | "\(.key): buys=\(.value.buys), sells=\(.value.sells), buyers=\(.value.buyers), sellers=\(.value.sellers)"'
 
 OHLCV_DATA=$(curl -s -X 'GET' \
-  "https://api.geckoterminal.com/api/v2/networks/solana/pools/$FIRST_POOL_ADDRESS/ohlcv/minute?aggregate=1&limit=30" \
+  "https://api.geckoterminal.com/api/v2/networks/solana/pools/$FIRST_POOL_ADDRESS/ohlcv/minute?aggregate=1&limit=60" \
   -H 'accept: application/json')
 
 echo -e "\nOHLCV Data for the Pool :"
