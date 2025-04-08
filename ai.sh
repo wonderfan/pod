@@ -9,3 +9,4 @@ git clone --depth 1 https://github.com/openai/tiktoken
 git clone --depth 1 https://github.com/huggingface/trl
 git clone --depth 1 https://github.com/huggingface/diffusers
 git clone --depth 1 https://github.com/huggingface/open-r1
+git clone --depth 1 https://github.com/huggingface/candle
