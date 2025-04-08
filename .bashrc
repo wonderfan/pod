@@ -1,1 +1,1 @@
-alias code='vim -c "set rnu"'
+alias code='vim -n -c "set rnu"'
