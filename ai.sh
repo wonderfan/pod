@@ -6,3 +6,6 @@ git clone --depth 1 https://github.com/meta-llama/llama-models
 git clone --depth 1 https://github.com/huggingface/smollm.git
 git clone --depth 1 https://github.com/huggingface/pytorch-image-models
 git clone --depth 1 https://github.com/openai/tiktoken
+git clone --depth 1 https://github.com/huggingface/trl
+git clone --depth 1 https://github.com/huggingface/diffusers
+git clone --depth 1 https://github.com/huggingface/open-r1
