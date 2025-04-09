@@ -12,3 +12,4 @@ git clone --depth 1 https://github.com/huggingface/open-r1
 git clone --depth 1 https://github.com/huggingface/candle
 git clone --depth 1 https://github.com/huggingface/tokenizers
 git clone --depth 1 https://github.com/huggingface/Qwen2.5-Coder
+git clone --depth 1 https://github.com/pytorch/vision.git
