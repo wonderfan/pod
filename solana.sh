@@ -1,3 +1,5 @@
+git clone --depth 1 https://github.com/solana-foundation/solana-com.git
+git clone --depth 1 https://github.com/solana-foundation/specs.git
 git clone --depth 1 https://github.com/solana-labs/solana.git
 git clone --depth 1 https://github.com/raydium-io/raydium-ui-v3-public.git
 git clone --depth 1 https://github.com/anza-xyz/agave.git
