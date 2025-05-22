@@ -1,3 +1,5 @@
+git clone --depth 1 https://gitlab.com/thorchain/thornode.git
+git clone --depth 1 https://github.com/thorchain/docs.git
 git clone --depth 1 https://github.com/drift-labs/protocol-v2.git
 git clone --depth 1 https://github.com/IPOR-Labs/ipor-protocol.git
 git clone --depth 1 https://github.com/gmx-io/gmx-interface.git
