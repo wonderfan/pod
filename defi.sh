@@ -1,3 +1,4 @@
+git clone --depth 1 https://github.com/swaap-labs/swaap-earn-protocol.git
 git clone --depth 1 https://gitlab.com/thorchain/thornode.git
 git clone --depth 1 https://github.com/thorchain/docs.git
 git clone --depth 1 https://github.com/drift-labs/protocol-v2.git
