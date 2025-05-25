@@ -1,3 +1,4 @@
+git clone --depth 1 https://github.com/solana-program/system.git
 git clone --depth 1 https://github.com/solana-program/token.git
 git clone --depth 1 https://github.com/solana-foundation/solana-com.git
 git clone --depth 1 https://github.com/solana-foundation/specs.git
