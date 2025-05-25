@@ -1,5 +1,4 @@
-pip install pdfplumber
-
+# pip install pdfplumber
 # pdfplumber input.pdf > output.txt
 
 pip install pdfminer.six
