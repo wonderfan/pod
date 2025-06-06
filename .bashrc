@@ -1,4 +1,5 @@
 alias code='vim -n -c "set rnu"'
+alias rw='vim -n -c "set rnu" $(find -type f)'
 alias push='git add --all && git commit -m "chore: make updates" && git push'
 
 # if ! command -v bat >/dev/null 2>&1; then
