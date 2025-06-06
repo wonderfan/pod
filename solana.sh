@@ -1,3 +1,6 @@
+git clone --depth 1 https://github.com/solana-labs/solana-program-library.git
+git clone --depth 1 https://github.com/saber-hq/stable-swap.git
+git clone --depth 1 https://github.com/project-serum/serum-dex.git
 git clone --depth 1 https://github.com/solana-foundation/anchor.git
 git clone --depth 1 https://github.com/solana-program/system.git
 git clone --depth 1 https://github.com/solana-program/token.git
