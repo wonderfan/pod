@@ -1,3 +1,5 @@
+git clone --depth 1  https://github.com/blockworks-foundation/autobahn.git
+git clone --depth 1  https://github.com/blockworks-foundation/mango-v4.git 
 git clone --depth 1 https://github.com/solana-labs/solana-program-library.git
 git clone --depth 1 https://github.com/saber-hq/stable-swap.git
 git clone --depth 1 https://github.com/project-serum/serum-dex.git
