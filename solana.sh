@@ -1,3 +1,6 @@
+git clone --depth 1 https://github.com/drift-labs/drift-vaults.git
+git clone --depth 1 https://github.com/askibin/perpetuals.git
+git clone --depth 1 https://github.com/margined-protocol/perpetuals.git
 git clone --depth 1 https://github.com/QuarryProtocol/quarry.git
 git clone --depth 1 https://github.com/jup-ag/jupiter-amm-implementation.git
 git clone --depth 1 https://github.com/orca-so/whirlpools.git
