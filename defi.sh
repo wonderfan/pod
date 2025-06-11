@@ -1,3 +1,6 @@
+git clone --depth 1 https://github.com/PositionExchange/decentralized-perpetual-trading-protocol-core.git
+git clone --depth 1 https://github.com/PositionExchange/decentralized-perpetual-trading-protocol-cross-chain.git
+git clone --depth 1 https://github.com/PositionExchange/position-protocol.git
 git clone --depth 1 https://github.com/bsx-exchange/contracts-core.git
 git clone --depth 1 https://github.com/swaap-labs/swaap-earn-protocol.git
 git clone --depth 1 https://gitlab.com/thorchain/thornode.git
