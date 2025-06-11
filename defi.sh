@@ -1,3 +1,4 @@
+git clone --depth 1 https://github.com/bsx-exchange/contracts-core.git
 git clone --depth 1 https://github.com/swaap-labs/swaap-earn-protocol.git
 git clone --depth 1 https://gitlab.com/thorchain/thornode.git
 git clone --depth 1 https://github.com/thorchain/docs.git
