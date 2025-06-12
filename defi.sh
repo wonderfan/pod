@@ -1,3 +1,4 @@
+git clone --depth 1 https://github.com/mux-world/mux3-protocol.git
 git clone --depth 1 https://github.com/mdexSwap/contracts.git
 git clone --depth 1 https://github.com/maverickprotocol/v2-interfaces.git
 git clone --depth 1 https://github.com/PositionExchange/decentralized-perpetual-trading-protocol-core.git
