@@ -1,3 +1,5 @@
+git clone --depth 1 https://github.com/mdexSwap/contracts.git
+git clone --depth 1 https://github.com/maverickprotocol/v2-interfaces.git
 git clone --depth 1 https://github.com/PositionExchange/decentralized-perpetual-trading-protocol-core.git
 git clone --depth 1 https://github.com/PositionExchange/decentralized-perpetual-trading-protocol-cross-chain.git
 git clone --depth 1 https://github.com/PositionExchange/position-protocol.git
