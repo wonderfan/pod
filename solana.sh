@@ -1,3 +1,4 @@
+git clone --depth 1 https://github.com/anza-xyz/pinocchio.git
 git clone --depth 1 https://github.com/anza-xyz/solana-sdk.git
 git clone --depth 1 https://github.com/drift-labs/drift-vaults.git
 git clone --depth 1 https://github.com/askibin/perpetuals.git
