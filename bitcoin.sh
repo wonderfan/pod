@@ -1,5 +1,7 @@
+git clone --depth 1 https://gitlab.com/bitcoin-cash-node/bitcoin-cash-node.git
+git clone --depth 1 https://github.com/litecoin-project/litecoin.git
 git clone --depth 1 https://github.com/bitcoin/bips.git
-git clone --depth 1 https://github.com/bitcoin/bitcoin.git
+# git clone --depth 1 https://github.com/bitcoin/bitcoin.git
 # git clone --depth 1 https://github.com/mempool/mempool.git
 
 ## Bitcoin Layer2 Network
