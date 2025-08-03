@@ -1,3 +1,4 @@
+git clone --depth 1 https://github.com/tig-foundation/tig-docs.git
 git clone --depth 1 https://github.com/tig-foundation/tig-monorepo.git
 git clone --depth 1 https://github.com/FlowiseAI/Flowise
 git clone --depth 1 https://github.com/trypromptly/LLMStack
